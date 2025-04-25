@@ -11,7 +11,6 @@
     <vue-office-docx
         :src="docx"
         style="height: 100vh;"
-        @rendered="rendered"
     />
   </div>
 </template>

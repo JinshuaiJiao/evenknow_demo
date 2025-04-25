@@ -3,7 +3,7 @@
         <div />
     </div>
     <img class="avatar-wrapper" v-else :src="outerImage" alt="outerImage">
-    <a-modal v-model:open="visible" title="选择图片" @ok="handleSubmit" width="720px" cancelText="取消" okText="确定"
+    <!-- <a-modal v-model:open="visible" title="选择图片" @ok="handleSubmit" width="720px" cancelText="取消" okText="确定" -->
         :maskClosable="false">
         <div class="modal-content">
             <!-- <a-upload
@@ -89,7 +89,7 @@
         </div>
 
         <el-button @click="getBase64">获取base64</el-button>
-    </a-modal>
+    <!-- </a-modal> -->
 </template>
 
 <script setup>
@@ -143,15 +143,15 @@ const getBase64 = () => {
         console.log('[ data ] >', data)
     });
 }
-const handleSubmit = () => {
+// const handleSubmit = () => {
 
-    cropper.value.getCropData((data) => {
-        outerImage.value = data
-        console.log('[ data ] >', data)
-    });
+//     cropper.value.getCropData((data) => {
+//         outerImage.value = data
+//         console.log('[ data ] >', data)
+//     });
 
-    visible.value = false
-}
+//     visible.value = false
+// }
 
 /* 获取base64格式 */
 function changeFile(e) {
