@@ -26,9 +26,6 @@ importers:
       esbuild-plugin-babel:
         specifier: ^0.2.3
         version: 0.2.3(@babel/core@7.26.8)
-      normal-tags:
-        specifier: 1.0.9
-        version: 1.0.9
       path:
         specifier: ^0.12.7
         version: 0.12.7
@@ -3108,9 +3105,6 @@ packages:
 
   node-releases@2.0.18:
     resolution: {integrity: sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==}
-
-  normal-tags@1.0.9:
-    resolution: {integrity: sha512-IDVxD96RZBq52zmTpVbfGSrtwAN0b1knhbS0wPjSadSmb4NfrVAe2zS+Ypta4csx8GtLpxEFS7WxPmdS2VF1YQ==}
 
   normalize-package-data@2.5.0:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
@@ -7682,8 +7676,6 @@ snapshots:
       he: 1.2.0
 
   node-releases@2.0.18: {}
-
-  normal-tags@1.0.9: {}
 
   normalize-package-data@2.5.0:
     dependencies:
